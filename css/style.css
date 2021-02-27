@@ -6,49 +6,85 @@
 header{
   height:100px;
   width:100%;
-  background-color:coral;
+  background-color:#525252;
+  font-family:sans-serif;
+  text-decoration:underline;
 }
 nav{
-  height:50px;
+  height:70px;
   width:100%;
-  background-color: #034444;
+  background-color: #adadad;
+  font-family:fantasy;
+  border-style:dashed none none none;
+  border-width: 7px;
+  border-color: #525252
 }
 main{
   height:400px;
   width:60%;
-  background-color: #44dffc;
+  background-color: #3221a3;
+  border-style: solid solid none none;
+  border-width: 5px;
 }
 aside{
   height:400px;
   width:40%;
-  background-color: #03d99c;
+  background-color: #2e2e2e;
+  border-style: solid none none none;
+  border-width: 5px;
 }
 footer{
   height:50px;
   width:100%;
-  background-color: #ccdffc;
+  background-color: #8fbcff;
+  border-style: solid none solid none;
+  border-width: 5px;
+
 }
 #container{
   display: flex;
 }
 
+body{
+  margin:0px;
+  padding:0px;
+}
 
 /* unvisited link */
 a:link {
-  color: blue;
-  text-decoration: none;
+  font-size: 20px;
+  font-family:serif;
+
+  color:#054701;
+  text-decoration:underline;
 }
 /* visited link */
 a:visited {
-  color: green;
+  font-size: 20px;
+  font-family:serif;
+
+  color:green;
+  text-decoration:underline;
 }
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  font-size: 20px;
+  font-family:serif;
+
+  color:hotpink;
+  text-decoration:underline;
 }
 
 /* selected link */
 a:active {
-  color: purple;
+  font-size: 20px;
+  font-family:serif;
+
+  color:#000000;
+  text-decoration:underline;
+}
+
+<h1> {
+  
 }
