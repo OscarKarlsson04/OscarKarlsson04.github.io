@@ -44,7 +44,7 @@ footer{
   border-style: solid none solid none;
   border-width: 5px;
   text-align: center;
-  
+
 
 
 
@@ -98,5 +98,7 @@ a:active {
 }
 p{
   box-sizing: border-box;
-  padding: 20px 20px 20px 25px;
+  padding: 20px 25px 20px 30px;
+  font-family: sans-serif;
+  font-size: 16px;
 }
