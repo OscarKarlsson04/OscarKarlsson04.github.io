@@ -1,14 +1,15 @@
 a:link, a:visited {
-  background-color: #f44336;
+  background-color: mediumseagreen;
   color: white;
-  padding: 14px 25px;
+  border:2px solid black;
+  padding: 30px 50px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
 }
 
 a:hover, a:active {
-  background-color: red;
+  background-color: green;
 }
 
 #wrapper{
@@ -24,33 +25,63 @@ header{
   height:80px;
   width:100%;
   background-color:#525252;
+  border-style: none none solid none;
+  border-width: 5px;
 }
 
 nav{
-  height:70px;
-  width:100%;
-  background-color: #adadad;
+  height:285px;
+  width:20%;
+  background-color:#baa0b9;
+  box-sizing: border-box;
+  text-align: center;
+  padding:100px 0px 100px 0px;
+  border-style: solid none none solid;
+  border-width: 5px;
 }
-
 main{
-  height:387px;
-  width:60%;
+  height:150px;
+  width:100%;
   background-color: #3221a3;
+  text-align: center;
+
+
 }
 
 aside{
-  height:387px;
-  width:40%;
-  background-color: #2e2e2e;
+  height:285px;
+  width:80%;
+  background-color:gray;
+  border-style: solid none none none;
+  border-width: 5px;
+  box-sizing: border-box;
+  padding: 55px;
+  text-align: center;
+  word-spacing: 20px;
+
+
 }
 
 footer{
-  height:50px;
+  height:80px;
   width:100%;
-  background-color: #8fbcff;
+  background-color:#2e2e2e;
+  font-family:monospace;
+  font-size: 20px;
+  text-align: center;
+  border-style: solid none solid none;
+  border-width: 5px;
 }
 
 body{
   margin:0px;
   padding:0px;
+
+}
+
+p{
+  box-sizing: border-box;
+  padding: 0px 25px 20px 30px;
+  font-family:monospace;
+  font-size: 16px;
 }
